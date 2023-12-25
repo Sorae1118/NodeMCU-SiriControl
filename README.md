@@ -9,9 +9,9 @@
 ## 🔨 Tech
 * Arduino IDE
 * Shortcuts<br><img width="154" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/0514cc39-d658-44e1-b978-77d7014ce297">
-* [dweet.io](https://dweet.io/)<br><img width="230" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/18b53b9f-2045-4de5-986a-f7b44ecd5141">
-  * Dweet은 디바이스 간에 데이터를 쉽게 주고 받을 수 있음. HTTP요청을 통해 JSON 형식의 데이터를 송수신
-  * 단점 : 테스트 결과 응답 속도가 생각보다 많이 느린 듯 하다...
+* [dweet.io](https://dweet.io/)<br><img width="230" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/18b53b9f-2045-4de5-986a-f7b44ecd5141"><br>
+* Dweet은 디바이스 간에 데이터를 쉽게 주고 받을 수 있음. HTTP요청을 통해 JSON 형식의 데이터를 송수신
+* 단점 : 테스트 결과 응답 속도가 생각보다 많이 느린 듯 하다...
 
 <br>
 
