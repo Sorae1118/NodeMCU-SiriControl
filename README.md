@@ -8,7 +8,9 @@
 
 ## 🔨 Tech
 * Arduino IDE
+<br>
 * Shortcuts<img width="154" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/0514cc39-d658-44e1-b978-77d7014ce297">
+<br>
 * [dweet.io](https://dweet.io/)<img width="230" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/18b53b9f-2045-4de5-986a-f7b44ecd5141">
 
 <br>
