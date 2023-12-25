@@ -10,6 +10,8 @@
 * Arduino IDE
 * Shortcuts<br><img width="154" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/0514cc39-d658-44e1-b978-77d7014ce297">
 * [dweet.io](https://dweet.io/)<br><img width="230" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/18b53b9f-2045-4de5-986a-f7b44ecd5141">
+      * Dweet은 디바이스 간에 데이터를 쉽게 주고 받을 수 있음. HTTP요청을 통해 JSON 형식의 데이터를 송수신
+      * 단점 : 테스트 결과 응답 속도가 생각보다 많이 느린 듯 하다...
 
 <br>
 
@@ -38,24 +40,26 @@
 * 브라우저로 해당 링크로 들어가면 객체에 담긴 정보를 확인할 수 있음.
 <img width="838" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/0fd06a3e-c056-4b3f-920a-3c80a56999fe">
 <img width="838" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/6043150f-c82b-403b-962b-7958fb058428">
-
-
-3. 회원가입 화면
-* 회원가입 페이지입니다.
-* 각 절차마다 예외 처리 필요(구현 예정)![image](https://github.com/Sorae1118/Music-Streaming/assets/115053276/2c06c600-9902-486e-88c2-137e2f081bbe)
 <br><br><br>
 
-4. 메인 스트리밍 화면
-* 메인 스크롤시 보이는 스트리밍 앨범 페이지입니다.
-* 앨범을 클릭하면 해당 노래의 URL이 호출됩니다. 음원 재생 푸터는 해당 URL로 초기화되어 노래를 재생할 수 있습니다. ![image](https://github.com/Sorae1118/Music-Streaming/assets/115053276/36e7334b-5b0d-4b4a-9f53-e473ec78ebf3)
+3. Arduino Json Assistant 사이트 활용
+* JSON 객체를 넣으면 자동으로 IDE 내에서 사용할 수 있는 파싱 코드 생성
+* 번호 순으로 진행하면 된다.
+* <img width="450" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/20134be2-0816-429a-a38e-226f9fb9d91c">
 <br><br><br>
 
+4. IDE 프로그래밍
+* 필요한 라이브러리 추가(ESP8266,ArduinoJson)
+* 클라이언트 생성, 연결 실패 처리
+* GET 요청 => /get/latest/dweet/for/soraeya 경로 필수 (thing 이름) => 헤더 추가 => 연결 닫기
+<img width="480" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/5581981c-cc8a-40fa-9a6b-fc12799c345c">
+<br><br><br>
 
-
-
-
-
-      
-
+5. IDE 프로그래밍
+* 데이터 한 줄 씩 읽어오는 것을 반복해 JSON 부분만 추출
+* JSON 데이터를 파싱
+* 각 값을 가져와 변수에 저장. (이 프로젝트에서는 LED Status 값만 사용)
+<img width="487" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/fb124808-722c-4b42-ba31-a0459f1bef90">
+<br><br><br>
 
 
