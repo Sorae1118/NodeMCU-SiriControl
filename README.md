@@ -24,7 +24,8 @@
 1. dweet.io에서 URL 생성하기
 * Play버튼 클릭
 * POST/dweet/for/{thing} 라벨 클릭, 이름 정하기
-* Try it out! 버튼 클릭후 URL 복사<img width="458" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/cbb812f3-b3ba-4e8f-a7b9-3c33f17869a6">
+* Try it out! 버튼 클릭후 URL 복사
+<img width="458" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/cbb812f3-b3ba-4e8f-a7b9-3c33f17869a6">
 <br><br><br>
 
 2. 로그인 화면
