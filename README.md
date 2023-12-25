@@ -28,10 +28,17 @@
 <img width="458" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/cbb812f3-b3ba-4e8f-a7b9-3c33f17869a6">
 <br><br><br>
 
-2. 로그인 화면
-* 로그인 페이지입니다.
-* 세션 기능(구현 예정)![image](https://github.com/Sorae1118/Music-Streaming/assets/115053276/625b788e-fa1f-4a44-bda2-cb8bcaed729e)
+2. Shortcuts(단축어) 생성
+* URL 변수 생성 후 링크 붙여넣기
+* 컨텐츠 가져오기에 URL 변수 연결. POST 메소드 사용 String 형태의 키와 값을 생성
+* 말하기에서 원하는 실행 보이스를 설정
+<img width="439" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/a5905cbf-a2eb-4923-b07c-c111694399da">
 <br><br><br>
+
+* 브라우저로 해당 링크로 들어가면 객체에 담긴 정보를 확인할 수 있음.
+<img width="838" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/0fd06a3e-c056-4b3f-920a-3c80a56999fe">
+<img width="838" alt="image" src="https://github.com/Sorae1118/NodeMCU-SiriControl/assets/115053276/6043150f-c82b-403b-962b-7958fb058428">
+
 
 3. 회원가입 화면
 * 회원가입 페이지입니다.
